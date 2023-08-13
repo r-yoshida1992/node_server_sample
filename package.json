@@ -5,8 +5,13 @@
   "repository": "https://github.com/r-yoshida1992/node_server_sample.git",
   "author": "Ren Yoshida <ren.yoshida1992@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts"
+  },
   "devDependencies": {
     "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
   }
 }
